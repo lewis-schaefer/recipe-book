@@ -57,6 +57,6 @@ get '/scrape/:title' do
 
   Recipe.create(title: recipe[:title], url: recipe[:url], description: recipe[:description], rating: recipe[:rating],
                 stats: recipe[:stats], ingredients: recipe[:ingredients], method: recipe[:method],
-                nutrition: recipe[:nutrition])
+                nutrition: recipe[:nutrition], img_url: recipe[:img_url])
   redirect '/'
 end

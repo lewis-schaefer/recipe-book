@@ -1,5 +1,8 @@
 <div class="card">
   <h2><%= @recipe.title %> - <%= @recipe.rating %>/5</h2>
+  <% if @recipe.img_url != "" %>
+    <img src="<%= @recipe.img_url %>" width="300px" height="300px">
+  <% end %>
   <h3><a href="<%= @recipe.url %>" target="_blank">Link</a></h3>
 </div>
 <div class="card">

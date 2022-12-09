@@ -1,4 +1,4 @@
-title,url,description,rating,stats,ingredients,method,nutrition
+title,url,description,rating,stats,ingredients,method,nutrition,img_url
 Apple Turnovers,https://www.allrecipes.com/recipe/59124/apple-turnovers/,"These classic apple turnovers have a delicious homemade filling that's baked inside flaky puff pastry triangles. If you do not wish to make the glaze, you can brush beaten egg over the top of each turnover, and sprinkle with white sugar before baking.",4.6,"Prep Time:
 30 mins
 
@@ -71,7 +71,7 @@ Fat
 Carbs
 
 5g
-Protein"
+Protein",https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg
 Parmesan Truffle Fries,https://www.allrecipes.com/recipe/247267/parmesan-truffle-fries/,French fries coated in truffle oil and Parmesan cheese is simply heavenly! They were served at one of my favorite brewpubs and I knew I had to recreate them at home.,4.3,"Prep Time:
 15 mins
 
@@ -128,7 +128,7 @@ Fat
 Carbs
 
 9g
-Protein"
+Protein",https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg
 Glazed Peas and Potatoes with Mint,https://www.allrecipes.com/recipe/246447/glazed-peas-and-potatoes-with-mint/,"My daughter used to call fresh peas 'green candy.' Try them in this simple side dish, which goes with pretty much everything--chicken, beef, or fish.",5.0,"Prep Time:
 10 mins
 
@@ -182,7 +182,7 @@ Fat
 Carbs
 
 3g
-Protein"
+Protein",https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg
 Homemade Apple Cider,https://www.allrecipes.com/recipe/211772/homemade-apple-cider/,This homemade apple cider recipe is easy to make without an apple press. Cider may be frozen for longer storage.,4.4,"Prep Time:
 15 mins
 
@@ -232,7 +232,7 @@ Fat
 Carbs
 
 0g
-Protein"
+Protein",https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg
 (Quail) Egg Salad Sandwiches on a Stick,https://www.allrecipes.com/recipe/239819/quail-egg-salad-sandwiches-on-a-stick/,"My kids love quail eggs. Even though they taste exactly like hen eggs, they want quail eggs because they are so little and fun. They challenged me to make an egg salad on a stick and this is what I came up with. Use whatever ingredients your family likes. They are healthier than hen eggs. Typically 5 quail eggs equals one serving. Serve chilled or at room temperature with mustard, mayonnaise, and capers.",5.0,"Prep Time:
 25 mins
 
@@ -291,4 +291,4 @@ Fat
 Carbs
 
 7g
-Protein"
+Protein",https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506169128-S6KYNEV61LEP5MS1UIH4/traditional-food-around-the-world-Travlinmad.jpg

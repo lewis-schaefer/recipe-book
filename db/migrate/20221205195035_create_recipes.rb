@@ -9,6 +9,7 @@ class CreateRecipes < ActiveRecord::Migration[7.0]
       t.string :ingredients
       t.string :method
       t.string :nutrition
+      t.string :img_url
       t.timestamps null: false
     end
   end

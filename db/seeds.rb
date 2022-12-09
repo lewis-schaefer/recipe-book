@@ -12,7 +12,8 @@ CSV.foreach(csv_file_path, headers: :first_row, header_converters: :symbol) do |
   # } }
 
   Recipe.create(title: row[:title], url: row[:url], description: row[:description], rating: row[:rating],
-                stats: row[:stats], ingredients: row[:ingredients], method: row[:method], nutrition: row[:nutrition])
+                stats: row[:stats], ingredients: row[:ingredients], method: row[:method],
+                nutrition: row[:nutrition], img_url: row[:img_url])
 
   # recipe = Recipe.new(recipe_details)
   # # add_recipe(recipe)

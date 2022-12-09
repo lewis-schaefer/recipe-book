@@ -21,9 +21,17 @@ class ScrapeAllRecipesService
 
     nutrition = doc.search("#mntl-nutrition-facts-summary_1-0 tr").text.strip
 
-    # create_recipe(title, description, rating, [stats, ingredients, method.join, nutrition])
-    # [title, description, rating, [stats, ingredients, method.join, nutrition]]
-    {title: title, url: url, description: description, rating: rating,
-     stats: stats, ingredients: ingredients, method: method.join, nutrition: nutrition}
+    img_url = []
+    img_tags = doc.xpath("//img")
+    img_tags.each do |img|
+      if img.attributes["class"].value.include?("primary-image__image")
+        img_url << img.attributes["src"].value
+        break
+      end
+    end
+
+    { title: title, url: url, description: description, rating: rating,
+     stats: stats, ingredients: ingredients, method: method.join,
+     nutrition: nutrition, img_url: img_url.join }
   end
 end
