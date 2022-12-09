@@ -1,0 +1,22 @@
+a {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.card {
+  background-color: #FFF;
+  padding: 10px;
+  max-width: 900px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border: 1px solid #AAA;
+  box-shadow: 2px 2px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  color: darkblue;
+  max-width: 900px;
+  margin: 25px auto;
+}

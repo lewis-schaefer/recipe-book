@@ -1,0 +1,21 @@
+<div class="card">
+  <h2>Add a Recipe</h2>
+  <form method="post" action="/search">
+    <label for="search">
+      <input type="text" name="search_term" id="search" placeholder="Enter an ingredient...">
+    </label>
+    <button>Search</button>
+    <button type="cancel" name="reset">Clear</button>
+  </form>
+  <% @search_results.each do |recipe| %>
+    <p><a href="/scrape/<%= recipe[0] %>"><%= recipe[0] %></a></p>
+  <% end %>
+</div>
+
+<h2>Recipe Cards</h2>
+<% @recipes.each do |recipe|%>
+  <div class="card">
+    <h3><a href="/recipes/<%= recipe.id %>"><%= recipe.title %> - <%= recipe.rating %>/5</a></h3>
+    <p><%= recipe.description %></P>
+  </div>
+<% end %>
